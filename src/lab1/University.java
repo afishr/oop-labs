@@ -1,4 +1,4 @@
-package com.company.lab1;
+package lab1;
 
 public class University
 {

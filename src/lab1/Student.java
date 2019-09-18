@@ -1,4 +1,4 @@
-package com.company.lab1;
+package lab1;
 
 import java.util.*;
 
