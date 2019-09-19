@@ -23,13 +23,8 @@ public class Queue
 		if (elementsNumber + 1 > maxSize)
 			return;
 		
-		for (int i = elementsNumber - 1; i >= 0; i--)
-		{
-			list[i+1] = list[i];
-		}
-		
+		list[elementsNumber] = value;
 		elementsNumber++;
-		list[0] = value;
 	}
 	
 	public int pop()
@@ -39,7 +34,7 @@ public class Queue
 		
 		int value = list[0];
 		
-		for (int i = 0; i < elementsNumber; i++)
+		for (int i = 0; i < elementsNumber - 1; i++)
 		{
 			list[i] = list[i+1];
 		}
