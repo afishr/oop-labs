@@ -4,8 +4,8 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		Text text = new Text("Lorem, ipsum.");
+		Text text = new Text("Lorem, ipsum, ipsum ipsum lorem");
 		
-		System.out.println(text.getNumberOfConsonants());
+		text.printTop5Long();
 	}
 }
