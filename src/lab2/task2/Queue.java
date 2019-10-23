@@ -54,10 +54,7 @@ public class Queue
 	
 	public boolean isEmpty()
 	{
-		if (elementsNumber == 0)
-			return true;
-		
-		return false;
+		return elementsNumber == 0;
 	}
 	
 	public boolean isFull()
