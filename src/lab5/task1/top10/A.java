@@ -3,7 +3,7 @@ package lab5.task1.top10;
 public class A
 {
 	protected String a;
-	protected X x;
+	protected X x = new X("xxx");
 	
 	public A(String val, X x)
 	{
