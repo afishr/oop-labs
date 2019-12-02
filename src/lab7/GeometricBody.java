@@ -1,7 +1,7 @@
 package lab7;
 
-public abstract class GeometricBody
+public interface GeometricBody
 {
-	public abstract float getSurface();
-	public abstract float getVolume();
+	float getSurface();
+	float getVolume();
 }

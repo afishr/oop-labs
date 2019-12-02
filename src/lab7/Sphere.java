@@ -1,6 +1,6 @@
 package lab7;
 
-public class Sphere extends GeometricBody
+public class Sphere implements GeometricBody
 {
 	private float r;
 	

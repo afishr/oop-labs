@@ -16,8 +16,8 @@ public class Main
 		bodies.add(sphere);
 		bodies.add(parallelepiped);
 		
-		System.out.println(GeometricBodyController.getBiggestSurfaceBody(bodies));
-		System.out.println(GeometricBodyController.getBiggestVolumeBody(bodies));
+		System.out.println(GeometricBodyController.getBiggestSurfaceBody(bodies).getSurface());
+		System.out.println(GeometricBodyController.getBiggestVolumeBody(bodies).getVolume());
 		
 	}
 }

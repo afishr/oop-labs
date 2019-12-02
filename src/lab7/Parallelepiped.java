@@ -1,6 +1,6 @@
 package lab7;
 
-public class Parallelepiped extends GeometricBody
+public class Parallelepiped implements GeometricBody
 {
 	private float a, b, c;
 	

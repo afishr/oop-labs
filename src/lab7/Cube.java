@@ -1,6 +1,6 @@
 package lab7;
 
-public class Cube extends GeometricBody
+public class Cube implements GeometricBody
 {
 	private float length;
 	
